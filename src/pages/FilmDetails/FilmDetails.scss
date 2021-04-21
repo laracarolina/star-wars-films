@@ -1,0 +1,28 @@
+@import '../../styles/variables.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  .container-details {
+    .container-width {
+      width: 550px;
+      font-size: 1rem;
+    }
+    .container-width-xs {
+      width: 290px;
+      font-size: 0.85rem;
+    }
+    h1, h2, h3, h4 {
+      color: $primary-color;
+      text-align: center;
+    }
+    .details {
+      text-align: left;
+      color: $primary-color;
+      span {
+        display: block;
+      }
+    }
+  }
+}

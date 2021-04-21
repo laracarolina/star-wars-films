@@ -1,0 +1,8 @@
+@import './styles/variables.scss';
+
+html, body {
+  background-image: url('./assets/images/sw-bg.png');
+  color: $font-color;
+  font-size: 1.1rem;
+  margin : 15px;
+}

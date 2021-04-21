@@ -1,0 +1,16 @@
+.list-films-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.no-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        margin-top: -60px;
+        font-weight: bold;
+    }
+}
